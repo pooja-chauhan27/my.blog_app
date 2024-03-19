@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "my.blogs.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "my.blogs.DbModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/my.blogs.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/my.blogs.DataAccess.dll": {}
+        }
+      },
+      "my.blogs.DbModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/my.blogs.DbModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/my.blogs.DbModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "my.blogs.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../my.blogs.DataAccess/my.blogs.DataAccess.csproj",
+      "msbuildProject": "../my.blogs.DataAccess/my.blogs.DataAccess.csproj"
+    },
+    "my.blogs.DbModels/1.0.0": {
+      "type": "project",
+      "path": "../my.blogs.DbModels/my.blogs.DbModels.csproj",
+      "msbuildProject": "../my.blogs.DbModels/my.blogs.DbModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "my.blogs.DataAccess >= 1.0.0",
+      "my.blogs.DbModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj",
+      "projectName": "my.blogs.BusinessLogic",
+      "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj": {
+              "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj"
+            },
+            "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj": {
+              "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

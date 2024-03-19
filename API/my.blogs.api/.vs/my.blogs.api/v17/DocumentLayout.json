@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\_learning\\my.blogs\\API\\my.blogs.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CB24411-09A8-4F99-9D69-7F7F4ADBE485}|..\\my.blogs.DbModels\\my.blogs.DbModels.csproj|e:\\_learning\\my.blogs\\api\\my.blogs.dbmodels\\appusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1796751170:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUsers.cs",
+              "DocumentMoniker": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\AppUsers.cs",
+              "RelativeDocumentMoniker": "..\\my.blogs.DbModels\\AppUsers.cs",
+              "ToolTip": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\AppUsers.cs",
+              "RelativeToolTip": "..\\my.blogs.DbModels\\AppUsers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:44:06.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

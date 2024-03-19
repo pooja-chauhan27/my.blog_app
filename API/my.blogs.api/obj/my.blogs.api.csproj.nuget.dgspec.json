@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\_learning\\my.blogs\\API\\my.blogs.api\\my.blogs.api.csproj": {}
+  },
+  "projects": {
+    "E:\\_learning\\my.blogs\\API\\my.blogs.api\\my.blogs.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\_learning\\my.blogs\\API\\my.blogs.api\\my.blogs.api.csproj",
+        "projectName": "my.blogs.api",
+        "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.api\\my.blogs.api.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\_learning\\my.blogs\\API\\my.blogs.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj": {
+                "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj"
+              },
+              "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj": {
+                "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj",
+        "projectName": "my.blogs.BusinessLogic",
+        "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\my.blogs.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\_learning\\my.blogs\\API\\my.blogs.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj": {
+                "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj"
+              },
+              "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj": {
+                "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj",
+        "projectName": "my.blogs.DataAccess",
+        "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\my.blogs.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj": {
+                "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj",
+        "projectName": "my.blogs.DbModels",
+        "projectPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\my.blogs.DbModels.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "E:\\_learning\\my.blogs\\API\\my.blogs.DbModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
